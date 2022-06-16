@@ -9,5 +9,5 @@ services:
   db:
     image: mysql:v1
     ports:
-      - 3306:3306
-    container_name: mysql
+      - 6033:3306
+    container_name: mysqli
