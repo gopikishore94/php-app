@@ -1,2 +1,2 @@
-FROM trafex/php-nginx
-ADD static /usr/share/nginx/html
+FROM newdeveloper/apache-php
+ADD static /var/www/html
