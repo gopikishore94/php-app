@@ -5,7 +5,7 @@ services:
       - 80:80
     container_name: web
     depends_on:
-      - mysql
+      - db
   db:
     image: mysql:v1
     ports:
