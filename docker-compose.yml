@@ -1,0 +1,13 @@
+services:
+  web:
+    image: web:v1
+    ports:
+      - 80:80
+    container_name: web
+    depends_on:
+      - db
+  db:
+    image: mysql:v1
+    ports:
+      - 3306:3306
+    container_name: mysql
